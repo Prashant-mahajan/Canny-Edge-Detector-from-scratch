@@ -17,5 +17,9 @@ For detailed explanation of each step click [here](http://justin-liang.com/tutor
 
 
 
+![Input Image](https://raw.githubusercontent.com/Prashant-mahajan/Canny-Edge-Detector-from-scratch/master/Images/Lena.bmp)
+
+
+
 
 
