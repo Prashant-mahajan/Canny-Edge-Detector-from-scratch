@@ -16,8 +16,10 @@ The main steps in this algorithms are as follows:
 For detailed explanation of each step click [here](http://justin-liang.com/tutorials/canny/). 
 
 
+## Input | Output 
+---------| ------
+![Input Image](https://github.com/Prashant-mahajan/Canny-Edge-Detector-from-scratch/blob/master/Images/Lena256.bmp) | ![Output Image](https://github.com/Prashant-mahajan/Canny-Edge-Detector-from-scratch/blob/master/Outputs/Lena/50_percent.jpg)
 
-![Input Image](https://github.com/Prashant-mahajan/Canny-Edge-Detector-from-scratch/blob/master/Images/Lena256.bmp)
 
 
 
