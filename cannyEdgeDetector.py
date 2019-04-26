@@ -238,9 +238,9 @@ if __name__ == "__main__":
                                        [0, 0, 0],
                                        [-1, -1, -1]])
 
-    file = sys.argv[1]
+    # file = sys.argv[1]
     # Read Image and convert to 2D numpy array
-    image = cv2.imread('Images/Sahil_Nanga.jpg', 0)
+    image = cv2.imread('Images/Lena256.bmp', 0)
 
     height = image.shape[0]
     width = image.shape[1]
@@ -275,10 +275,10 @@ if __name__ == "__main__":
     edgePixels = localMaxSuppressed[2]
 
     # Binary Edge image with p-tile Threshold 10%
-    ptile10 = pTile(10, np.copy(suppressedImage), numberOfPixels, edgePixels, file)
+    ptile10 = pTile(10, np.copy(suppressedImage), numberOfPixels, edgePixels, image)
 
     # Binary Edge image with p-tile Threshold 20%
-    ptile20 = pTile(30, np.copy(suppressedImage), numberOfPixels, edgePixels, file)
+    ptile20 = pTile(30, np.copy(suppressedImage), numberOfPixels, edgePixels, image)
 
     # Binary Edge image with p-tile Threshold 30%
-    ptile30 = pTile(50, np.copy(suppressedImage), numberOfPixels, edgePixels, file)
+    ptile30 = pTile(50, np.copy(suppressedImage), numberOfPixels, edgePixels, image)
