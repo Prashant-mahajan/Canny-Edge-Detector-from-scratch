@@ -1,6 +1,6 @@
 # Canny-Edge-Detector-from-scratch
 
-![Input Image](https://github.com/Prashant-mahajan/Canny-Edge-Detector-from-scratch/blob/master/Images/Lena256.bmp) | ![Output Image](https://github.com/Prashant-mahajan/Canny-Edge-Detector-from-scratch/blob/master/Outputs/Lena/50_percent.jpg)
+![Input Image](https://github.com/Prashant-mahajan/Canny-Edge-Detector-from-scratch/blob/master/Images/Lena256.bmp) | ![Output Image](https://github.com/Prashant-mahajan/Canny-Edge-Detector-from-scratch/blob/master/Outputs/50_percent.jpg)
 
 This repository contains implementation of Canny Edge Detector from scratch without using library functions (except for image open/close & matrix operations) in Python. 
 
